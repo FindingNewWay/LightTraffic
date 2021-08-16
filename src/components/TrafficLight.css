@@ -1,0 +1,69 @@
+.TrafficLight {
+  height: 100%;
+  background-color: #fcf7f7;
+  display:flex;
+  border-radius: 10px;
+}
+
+.Light {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  opacity: 0.2;
+  margin: 8px;
+  transition: all 0.3s ease-out;
+}
+
+.Light-active {
+  opacity: 1;
+}
+
+.Light-animation {
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.Red {
+  background-color: red;
+}
+
+.Green {
+  background-color: green;
+}
+
+.Orange {
+  background-color: orange;
+}
+
+.RedText {
+  color: red;
+}
+
+.GreenText {
+  color: green;
+}
+
+.OrangeText {
+  color: orange;
+}
+.Courter{
+  height: 80px;
+  width: 80px;
+  margin: 8px;
+  text-align: center;
+}
+
+h1{
+  height: 100%;
+  margin: 0;
+}
